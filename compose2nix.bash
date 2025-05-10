@@ -151,4 +151,6 @@ cat > "flake.nix" <<EOF
 }
 EOF
 
+git add flake.nix
+
 nix run 
